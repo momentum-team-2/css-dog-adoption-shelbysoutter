@@ -1,7 +1,7 @@
 header {
     padding: 10px 40px;
     margin: -10px;
-    background-color: blue;
+    background-color: rgb(3, 3, 43);
     font-family: open sans;
     color: white;
 }
@@ -16,7 +16,11 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 100vh;
+    height: 150vh;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 5px;
+    border-color: rgb(62, 4, 95);
 }
 
 .dog-picture {
@@ -27,15 +31,17 @@ img {
     width: 100%;
 }
 .dog-info {
-    display: inline;
+    display: inline-block;
     font-family: oswald;
 }
 
 li {
-    background-color: teal;
-    display: inline;
+    background-color: rgb(31, 161, 212);
+    display: inline-block;
     list-style: none;
-    border-radius: 25px;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 3px;
 }
 
 .footer {
@@ -43,24 +49,34 @@ li {
     flex-direction: row;
     font-family: oswald;
     text-align: center;
-    color: black;
+    color: white;
     align-items: stretch;
-    height: 400px
+    height: 400px;
 }
 
 .donate {
+    margin: 5px;
+    border-radius: 25px;
     width: 100%;
-    background-image: url("starter_files/images/donate.jpg");
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/donate.jpg");
+    opacity: 0.5;
+    
 }
 
 .volunteer {
+    margin: 5px;
+    border-radius: 25px;
     width: 100%;
-    background-image: url("starter_files/images/volunteer.jpg");
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/volunteer.jpg");
+    opacity: 0.5;
    
 }
 
 .location {
+    margin: 5px;
+    border-radius: 25px;
     width: 100%;
-    background-image: url("starter_files/images/location.png");
+    background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/location.png");
+    opacity: 0.5;
     
 }
