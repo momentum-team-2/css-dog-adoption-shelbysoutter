@@ -1,3 +1,66 @@
-h1 {
+header {
+    padding: 10px 40px;
+    margin: -10px;
+    background-color: blue;
+    font-family: open sans;
+    color: white;
+}
+
+.Adopt-dog {
+    font-family: open sans;
+    padding-left: 40px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.dog-picture {
+   width: 400px;
+}
+
+img {
+    width: 100%;
+}
+.dog-info {
+    display: inline;
+    font-family: oswald;
+}
+
+li {
+    background-color: teal;
+    display: inline;
+    list-style: none;
+    border-radius: 25px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    font-family: oswald;
+    text-align: center;
+    color: black;
+    align-items: stretch;
+    height: 400px
+}
+
+.donate {
+    width: 100%;
+    background-image: url("starter_files/images/donate.jpg");
+}
+
+.volunteer {
+    width: 100%;
+    background-image: url("starter_files/images/volunteer.jpg");
+   
+}
+
+.location {
+    width: 100%;
+    background-image: url("starter_files/images/location.png");
     
 }
