@@ -52,6 +52,7 @@ li {
     color: white;
     align-items: stretch;
     height: 400px;
+    font-size: larger;
 }
 
 .donate {
@@ -60,6 +61,8 @@ li {
     width: 100%;
     background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/donate.jpg");
     opacity: 0.5;
+    line-height: 23pc
+    
     
 }
 
@@ -69,6 +72,7 @@ li {
     width: 100%;
     background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/volunteer.jpg");
     opacity: 0.5;
+    line-height: 23pc;
    
 }
 
@@ -78,5 +82,6 @@ li {
     width: 100%;
     background-image: linear-gradient(rgba(43, 29, 240, 0.753), rgba(87, 33, 236, 0.5)), url("starter_files/images/location.png");
     opacity: 0.5;
+    line-height: 23pc;
     
 }
